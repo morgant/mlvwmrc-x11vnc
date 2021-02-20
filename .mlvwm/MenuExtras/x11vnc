@@ -1,0 +1,7 @@
+################################################################################
+# x11vnc Menu Extra
+################################################################################
+
+Menu X11VNC, Icon vnc.xpm, Stick, Right
+"Disconnect All Clients" Action Exec "x11vnc" exec x11vnc -R close:all
+END
